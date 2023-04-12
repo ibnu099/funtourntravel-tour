@@ -180,3 +180,27 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2023-04-12T15:43:48.435+07:00  INFO 21472 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-04-12T15:43:48.441+07:00  INFO 21472 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-04-12T15:43:48.456+07:00  INFO 21472 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-12T15:48:21.942+07:00  INFO 23456 --- [main] i.c.funtourntravel.tour.TourApplication  : Starting TourApplication using Java 18.0.2.1 with PID 23456 (C:\Users\Ibnu Gunawan\Documents\GitHub\funtourntravel-tour\target\classes started by Ibnu Gunawan in C:\Users\Ibnu Gunawan\Documents\GitHub\funtourntravel-tour)
+2023-04-12T15:48:21.946+07:00  INFO 23456 --- [main] i.c.funtourntravel.tour.TourApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-12T15:48:23.636+07:00  INFO 23456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-12T15:48:23.768+07:00  INFO 23456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 113 ms. Found 1 JPA repository interfaces.
+2023-04-12T15:48:24.925+07:00  INFO 23456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-04-12T15:48:24.940+07:00  INFO 23456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-12T15:48:24.941+07:00  INFO 23456 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-12T15:48:25.112+07:00  INFO 23456 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-12T15:48:25.113+07:00  INFO 23456 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3036 ms
+2023-04-12T15:48:25.321+07:00  INFO 23456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-12T15:48:25.566+07:00  INFO 23456 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e28fee1
+2023-04-12T15:48:25.569+07:00  INFO 23456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-12T15:48:25.636+07:00  INFO 23456 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-12T15:48:25.730+07:00  INFO 23456 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-12T15:48:26.310+07:00  WARN 23456 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-04-12T15:48:26.319+07:00  INFO 23456 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-12T15:48:27.324+07:00  INFO 23456 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-12T15:48:27.351+07:00  INFO 23456 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-12T15:48:27.876+07:00  WARN 23456 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-12T15:48:28.540+07:00  INFO 23456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2023-04-12T15:48:28.549+07:00  INFO 23456 --- [main] i.c.funtourntravel.tour.TourApplication  : Started TourApplication in 7.862 seconds (process running for 9.15)
+2023-04-12T15:48:47.314+07:00  INFO 23456 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-12T15:48:47.324+07:00  INFO 23456 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-12T15:48:47.376+07:00  INFO 23456 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
