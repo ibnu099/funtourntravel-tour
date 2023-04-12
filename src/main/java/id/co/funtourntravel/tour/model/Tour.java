@@ -1,12 +1,23 @@
 package id.co.funtourntravel.tour.model;
 
-import org.springframework.stereotype.Component;
+import jakarta.persistence.*;
 
-@Component
+@Entity
+@Table(name = "tbl_tour")
 public class Tour {
+
+    @Id
+    @Column(name = "id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
+    @Column(name = "tour_name")
     private String tourName;
+
+    @Column(name = "price")
     private Long price;
+
+    @Column(name = "description")
     private String description;
 
     public int getId() {
