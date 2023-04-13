@@ -2,6 +2,8 @@ package id.co.funtourntravel.tour.model;
 
 import jakarta.persistence.*;
 
+import java.util.Date;
+
 @Entity
 @Table(name = "tbl_tour")
 public class Tour {
@@ -19,6 +21,9 @@ public class Tour {
 
     @Column(name = "description")
     private String description;
+
+    @Column(name = "tour_date")
+    private Date tourDate;
 
     public int getId() {
         return id;
@@ -50,5 +55,13 @@ public class Tour {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public Date getTourDate() {
+        return tourDate;
+    }
+
+    public void setTourDate(Date tourDate) {
+        this.tourDate = tourDate;
     }
 }
